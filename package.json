@@ -5,7 +5,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Raunc",
   "license": "ISC",
-  "description": ""
+  "description": "Just starting the s***",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
 }
