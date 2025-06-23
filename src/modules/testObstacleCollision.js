@@ -7,7 +7,7 @@ export function testObstacleCollision(ball) {
       ballRect.left < obstacleRect.right &&
       ballRect.right > obstacleRect.left &&
       ballRect.top < obstacleRect.bottom &&
-      obstacleRect.bottom > obstacleRect.top
+      ballRect.bottom > obstacleRect.top
     ) {
       console.log("Collision");
     }
