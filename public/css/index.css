@@ -1,0 +1,20 @@
+#ball {
+  background-color: red;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+#map {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  border: 1px solid black;
+  overscroll-behavior: none;
+}
+.obstacle {
+  background-color: forestgreen;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}

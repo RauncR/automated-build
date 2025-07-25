@@ -1,7 +1,8 @@
 import { testEdgeCollision } from "./testEdgeCollision.js";
 import { testObstacleCollision } from "./testObstacleCollision.js";
+const map = document.getElementById("map");
 
-export function moveBall(e, ball, position) {
+export default function moveBall(e, ball, position) {
   if (e.code === "ArrowLeft") {
     position.x -= 10;
   } else if (e.code === "ArrowRight") {
@@ -15,5 +16,5 @@ export function moveBall(e, ball, position) {
   ball.style.top = position.y + "px";
 
   testEdgeCollision(ball, map);
-  testObstacleCollision(ball);
+  testObstacleCollision();
 }
